@@ -9,10 +9,13 @@ import "./login.css";
 
 class Signup extends React.Component {
 
-    state = {
-        email: "",
-        password: ""
-    };
+    constructor(props){
+        super(props);
+        this.state={
+            email: "",
+            password: ""
+        }
+    }
 
     changeValue = (e) => {
         this.setState({[e.target.name]: e.target.value});
