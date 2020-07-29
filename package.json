@@ -1,11 +1,12 @@
 {
   "name": "react-mua-signup",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "repository": "https://github.com/maifeeulasad/react-mua-signup",
   "author": "Maifee Ul Asad",
   "license": "https://github.com/maifeeulasad/react-mua-signup/blob/master/LICENSE",
   "bugs": "https://github.com/maifeeulasad/react-mua-signup/issues",
+  "main": "index.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
