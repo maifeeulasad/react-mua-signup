@@ -14,7 +14,9 @@ class Signup extends React.Component {
         this.state={
             email: "",
             password: ""
-        }
+        };
+        this.changeValue=this.changeValue.bind(this);
+        this.signup=this.signup.bind(this);
     }
 
     changeValue = (e) => {
