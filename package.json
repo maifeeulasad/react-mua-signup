@@ -1,6 +1,6 @@
 {
   "name": "react-mua-signup",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "repository": "https://github.com/maifeeulasad/react-mua-signup",
   "author": "Maifee Ul Asad",
@@ -31,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4"
   }
 }
