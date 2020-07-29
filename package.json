@@ -1,11 +1,11 @@
 {
-  "name": "react-mua-login",
-  "version": "1.0.4",
+  "name": "react-mua-signup",
+  "version": "1.0.5",
   "private": false,
-  "repository": "https://github.com/maifeeulasad/react-mua-login",
+  "repository": "https://github.com/maifeeulasad/react-mua-signup",
   "author": "Maifee Ul Asad",
-  "license": "https://github.com/maifeeulasad/react-mua-login/blob/master/LICENSE",
-  "bugs": "https://github.com/maifeeulasad/react-mua-login/issues",
+  "license": "https://github.com/maifeeulasad/react-mua-signup/blob/master/LICENSE",
+  "bugs": "https://github.com/maifeeulasad/react-mua-signup/issues",
   "babel": {
     "presets": [
       "@babel/preset-react"
