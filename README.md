@@ -13,8 +13,8 @@ And call it simply like this :
 ```typescript jsx
 
 import Signup from "react-mua-signup";
-
-<Login
+...
+<Signup
       signup={(username, password) => {
         console.debug(username);
         console.debug(password);
@@ -24,7 +24,7 @@ import Signup from "react-mua-signup";
 Now you are good to go.
 
 Live example : 
-#[codesandbox.io](https://codesandbox.io/s/react-mua-login-sample-x12dr?file=/src/index.js)
+[codesandbox.io](https://codesandbox.io/s/react-mua-signup-sample-3vlqs?file=/src/index.js)
 
 
 To-Do :
