@@ -28,6 +28,7 @@ ReactDOM.render(<Signup onSignup={(email, p) => {
 ## Sample :
  - https://maifeeulasad.github.io/react-mua-signup/
  - https://codesandbox.io/s/react-mua-signup-sample-3vlqs?file=/src/index.js
+ 
 ![react-mua-signup](https://github.com/maifeeulasad/react-mua-signup/blob/gh-pages/Screenshot.png)
 
 ## License
