@@ -1,31 +1,31 @@
 # react-mua-signup
 
-Why wasting your time designing and writing the same code for 
-every project again and again. Just forget about all these hassles,
- and concentrate on your original purpose.
- 
-All you have to do is 
+> Just another Signup template for React.js
+
+[![NPM](https://img.shields.io/npm/v/react-mua-signup.svg)](https://www.npmjs.com/package/react-mua-signup) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Install
+
+```bash
+npm install --save react-mua-signup
 ```
-npm install react-mua-signup
+
+## Usage
+
+```jsx
+import React, { Component } from 'react'
+
+
+import Signup from 'react-mua-signup'
+import 'react-mua-signup/dist/index.css'
+
+ReactDOM.render(<Signup onSignup={(email, p) => {
+  console.debug(email)
+  console.debug(p)
+}}/>, document.getElementById('root'))
+
 ```
 
-And call it simply like this :
-```typescript jsx
+## License
 
-import Signup from "react-mua-signup";
-...
-<Signup
-      signup={(username, password) => {
-        console.debug(username);
-        console.debug(password);
-      }}
-    />
-```
-Now you are good to go.
-
-Live example : 
-[codesandbox.io](https://codesandbox.io/s/react-mua-signup-sample-3vlqs?file=/src/index.js)
-
-
-To-Do :
-Complete documentation
+MIT © [maifeeulasad](https://github.com/maifeeulasad)
